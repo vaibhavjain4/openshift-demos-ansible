@@ -4,7 +4,7 @@ metadata:
   name: coolstore-ansible-installer
 parameters:
 - displayName: Playbooks Git Repo
-  value: "https://github.com/siamaksade/openshift-demos-ansible"
+  value: "https://github.com/vaibhavjain4/openshift-demos-ansible"
   name: GITHUB_REPO
   required: true
 - displayName: Playbooks Git Ref
