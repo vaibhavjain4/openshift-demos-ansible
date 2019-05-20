@@ -61,14 +61,7 @@
       when: deploy_guides
       tags: guides
 
-    # deploy eclipse che
-    - import_role:
-        name: openshift_eclipse_che
-      vars:
-        project_name: "{{ project_cicd }}"
-        che_version: "latest"
-        route_suffix: "{{ apps_hostname_suffix }}"
-      tags: eclipse-che
+    
 
     # deploy coolstore
     - import_role:
